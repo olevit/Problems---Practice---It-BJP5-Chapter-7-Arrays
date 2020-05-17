@@ -1,0 +1,6 @@
+/*Write code that creates an array named odds and stores all odd numbers between -6 and 38
+ into it using a for loop. Make the array's size exactly large enough to store the numbers.*/
+ 
+int[] odds = new int [(38 - (- 6)) / 2];
+for(int i = 0; i < (38 - (- 6)) / 2; i++)
+    odds[i] = (-6 + 1) + 2 * i;
